@@ -111,7 +111,7 @@ p {
     position: relative;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1024px) {
     h1 {
         text-transform: uppercase;
         color: #8d0909;
