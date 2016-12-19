@@ -113,9 +113,9 @@ p {
 
 @media all and (max-width: 1024px) {
     .wrapper {
-        width: 960px;
-        min-height: 720px;
-        margin: 0 auto;
+        width: auto;
+        min-height: auto;
+        margin: auto;
         text-align: center;
         padding-top: 20px;
     }
@@ -147,7 +147,6 @@ p {
     .hr {
         display: block;
         border: none;
-        width: 960px;
         height: 2px;
         background: url(img/divider.png);
         margin: 10px 0;
@@ -163,15 +162,13 @@ p {
     }
     .txt-launch-day-hat {
         background: url(img/txt-launch-day-hat.png) no-repeat;
-        width: 117px;
         height: 159px;
         position: absolute;
         top: -120px;
         right: -45px;
     }
     .txt-launch-day {
-        background: url(img/txt-launch-day.png) no-repeat;
-        width: 112px;
+        background: url(../img/txt-launch-day.png) no-repeat;
         height: 110px;
         position: absolute;
         top: -80px;
@@ -186,7 +183,6 @@ p {
         border-radius: 10px;
     }
     .progress-bar-container {
-        width: 930px;
         height: 70px;
         margin-left: 13px;
         position: relative;
